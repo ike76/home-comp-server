@@ -37,6 +37,7 @@ describe("Sign UP", () => {
       .send(user)
       .then(res => {
         expect(res).to.have.status(200);
+        console.log(res);
         expect(res.body).to.haveOwnProperty("email");
       });
   });

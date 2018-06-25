@@ -29,7 +29,7 @@ const jwtAuth = passport.authenticate("jwt", {
 app.use("/auth", authRouter);
 app.use("/house", jwtAuth, houseRouter);
 app.use("/user", jwtAuth, userRouter);
-app.use("/testing", (req, res) => {
+app.get("/testing", (req, res) => {
   res.json({ yep: "its working" });
 });
 
