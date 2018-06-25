@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: fNtUOK0Fk6PBj92/qasAwbhdjvZ8RcRQeO4XFEro/YC8qje/+HmqJ+eo63tQNEhF13A+rV8WEHjhXUxY6z18YBEtFJmRVfKF6sKn8gKXB/27/VdktVL3hxxJQhqzCvdtuCVEsw8lbwcFb6qo3Q0Gs6FzNIxh2sDOjUcDn0k6OjHH8ftlW1X4NhgWPOA3EKKPJxBhXOo8vZQEicSnaGDarS8nOwCq7mr6LDpdpAchXn4+8wQaLy+x2HvOxQqAzi0F/6gzCmLhNNVd6P646lk5yj/ENcfc78GQsq7+tc36X29pvZ2lsK4pwfGBEHF1K28Hx0wSMRpKz3GdE8qn6icCeC+vDaRdCdz7h8tVEKZoC0I5KEHBlNm53mpOXGoql4bHqWbLOmKTboORG/lmuW/TF+X99heR99Z7PRZgkHl/ZS1k5kuNbGxyE+i86CqYtbfKN3DQjylfW+bqmRgoDSeG/TuKnorqmdP4PVdfeYS+v5/SoEQYv22CVlDVZUEhXyv6RoDjbSpjJePKPow8hWYYv8tyWuZdgXqE22S8nXxQypDQW9GNAfcSD19W9HKnTJ/nB4UFcwIXzyr1SssDomYoJT1BP0DwXtYTyHH1S6pdTcJrj9mvru0UCHoFz+xiVpwd+emuBsUd+ZJ1tJTM24386Mb354qron2EqTyGcsOe+hg=
+  app: home-comp-server
+  on:
+    repo: ike76/home-comp-server
